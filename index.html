@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="float-grid.css" />
+  </head>
+  <body>
+    <header id="title" class="title" role="banner">
+      <h1>Sports Quiz</h1>
+      <p>A quiz to test your Knowledge of The Braves and Georgia Bulldogs</p>
+    
+   
+    <div id="enterQuiz"><button id="startQuiz">StartQuiz</button></div>
+   </header>
+    <form id="quiz-app" class="app">
+      <p id="question" class="question"></p>
+      <div id="choices"></div>
+      
+      
+      <button id="nextButton" class="next-btn">Submit</button>
+ 
+    </form>
+ <div id="resultsHolder">
+    
+    <p id="questionOf">Question: <span id="questionNumber"></span></p>
+    <p>Score: <span id="results"></span></p>
+    <p id="correct">Correct Answer: <span id="correctAnswer"></span></p>
+    </div>
+ <div id="resetPage">
+  
+    <div id="exitQuiz"><button id="restartQuiz">RestartQuiz</button></div>
+   
+ </div>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
